@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio personal de Angel Samael, desarrollador web en formación.">
+    <meta name="theme-color" content="#0b1220">
+    <title>Angel Samael | Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js" defer></script>
+</head>
+
+<body>
+    <header class="hero" id="inicio">
+        <nav class="nav contenedor" aria-label="Navegación principal">
+            <a class="marca" href="#inicio">AS<span>.</span></a>
+
+            <div class="nav-enlaces">
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#formacion">Formación</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+            <button class="tema-btn" id="modoBtn" type="button" aria-label="Activar modo oscuro" aria-pressed="false">
+                <span aria-hidden="true">🌙</span>
+                <span class="tema-texto">Modo oscuro</span>
+            </button>
+        </nav>
+
+        <div class="presentacion contenedor">
+            <div class="presentacion-texto">
+                <p class="sobrelinea"><span class="punto"></span> Disponible para aprender y colaborar</p>
+                <p class="saludo">Hola, soy</p>
+                <h1>Angel <span>Samael</span></h1>
+                <h2>Desarrollador web en formación</h2>
+                <p class="intro">
+                    Soy estudiante de informática y actualmente estoy aprendiendo a crear sitios web
+                    claros, accesibles y funcionales. Este portafolio reúne mi progreso.
+                </p>
+                <div class="acciones">
+                    <a class="boton boton-principal" href="#proyectos">Ver proyectos <span
+                            aria-hidden="true">↓</span></a>
+                    <a class="boton boton-secundario" href="#contacto">Contactarme</a>
+                </div>
+            </div>
+
+            <div class="foto-marco">
+                <img src="foto1.jpeg" alt="Fotografía de Angel Gomez Borja">
+                <span class="foto-etiqueta">Estudiante de informática</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <section class="seccion sobre-mi" id="sobre-mi">
+            <div class="encabezado-seccion">
+                <p class="sobrelinea">Conóceme</p>
+                <h2>Sobre mí</h2>
+            </div>
+            <div class="sobre-mi-contenido">
+                <p>
+                    Me interesa el hecho de desarrollar paginas web, el diseño de interfaces y la tecnología.
+                    en mi trasncurso de mi programa academico, he podido aprender creando. Cada proyecto me a ayuda a
+                    practicar y a resolver problemas nuevos.
+                </p>
+                <p>
+                    Actualmente estoy fortaleciendo mis conocimientos en HTML, CSS y
+                    JavaScript. Mi objetivo es seguir creciendo como desarrollador y
+                    participar en proyectos donde pueda aportar y aprender.
+                </p>
+            </div>
+        </section>
+
+        <section class="seccion" id="proyectos">
+            <div class="encabezado-seccion">
+                <p class="sobrelinea">Mi trabajo</p>
+                <h2>Proyectos destacados</h2>
+                <p class="descripcion-seccion">
+                    Algunos ejercicios y proyectos que he desarrollado mientras aprendo.
+                </p>
+            </div>
+
+            <div class="proyectos">
+                <article class="tarjeta">
+                    <div class="tarjeta-icono" aria-hidden="true">🌐</div>
+                    <p class="tipo-proyecto">Desarrollo web</p>
+                    <h3>Mi primera página web</h3>
+                    <p>
+                        Sitio creado para practicar estructura HTML, estilos CSS y
+                        comportamiento con JavaScript.
+                    </p>
+                    <ul class="etiquetas" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                    <a class="enlace-proyecto" href="https://angelgomezborja123-ops.github.io/wed./">Ingresar al
+                        proyecto
+                        <span aria-hidden="true">↗</span></a>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="tarjeta-icono" aria-hidden="true">🛍️</div>
+                    <p class="tipo-proyecto">Diseño de interfaz</p>
+                    <h3>Tienda virtual</h3>
+                    <p>
+                        Propuesta de tienda con productos organizados en tarjetas y una
+                        navegación sencilla.
+                    </p>
+                    <ul class="etiquetas" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <a class="enlace-proyecto" href="https://www.temu.com/co">Ingresar al
+                        proyecto <span aria-hidden="true">↗</span></a>
+                </article>
+
+                <article class="tarjeta">
+                    <div class="tarjeta-icono" aria-hidden="true">⚽</div>
+                    <p class="tipo-proyecto">Proyecto personal</p>
+                    <h3>Estadísticas deportivas</h3>
+                    <p>
+                        Idea de página para presentar información deportiva de forma
+                        ordenada y fácil de consultar.
+                    </p>
+                    <ul class="etiquetas" aria-label="Tecnologías">
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a class="enlace-proyecto" href="https://www.365scores.com/es">Ingresar al
+                        proyecto <span aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="seccion" id="habilidades">
+            <div class="encabezado-seccion">
+                <p class="sobrelinea">Lo que estoy aprendiendo</p>
+                <h2>Habilidades</h2>
+            </div>
+
+            <div class="habilidades-grupo">
+                <h3>Tecnologías</h3>
+                <ul class="habilidades">
+                    <li><span>HTML5</span><small>Estructura de páginas</small></li>
+                    <li><span>CSS3</span><small>Estilos y diseño adaptable</small></li>
+                    <li><span>JavaScript</span><small>Interactividad básica</small></li>
+                </ul>
+            </div>
+
+            <div class="habilidades-grupo">
+                <h3>Otros conocimientos</h3>
+                <ul class="habilidades habilidades-secundarias">
+                    <li>Ofimática</li>
+                    <li>Mantenimiento básico</li>
+                    <li>Aprendizaje autónomo</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="seccion" id="formacion">
+            <div class="encabezado-seccion">
+                <p class="sobrelinea">Mi camino</p>
+                <h2>Formación</h2>
+            </div>
+            <div class="formacion-item">
+                <span class="formacion-icono" aria-hidden="true">📚</span>
+                <div>
+                    <h3>Estudiante de informática</h3>
+                    <p>
+                        En formación. Actualmente aprendiendo desarrollo web, fundamentos
+                        de tecnología, Redes, mantenimiento correctivo y preventivo, en gran parte del sofware.
+                    </p>
+                    <p class="formacion-fecha">UNICARIBE 11/11/2026</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion contacto" id="contacto">
+            <div class="encabezado-seccion">
+                <p class="sobrelinea">Hablemos</p>
+                <h2>Contacto</h2>
+                <p class="descripcion-seccion">
+                    ¿Tienes una idea o quieres conversar sobre un proyecto? Escríbeme.
+                </p>
+            </div>
+
+            <p class="contacto-correo">
+                También puedes contactarme en:
+                <a href="mailto:samaelangel513@gmail.com">samaelangel513@gmail.com</a>
+            </p>
+
+            <form id="contactoForm">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" autocomplete="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button class="boton boton-principal" type="submit">Preparar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor footer-contenido">
+            <p>Hecho por Angel Samael · <span id="anio"></span></p>
+            <a href="#inicio">Volver arriba ↑</a>
+        </div>
+    </footer>
+</body>
+
+</html>
